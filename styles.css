@@ -105,3 +105,6 @@ svg:hover {
 #addtrack:hover {
   box-shadow: black 5px 5px 20px;
 }
+.card-body .text-info {
+  text-shadow: black 0px 0px 2px;
+}
