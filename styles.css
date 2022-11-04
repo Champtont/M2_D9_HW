@@ -85,3 +85,17 @@ svg:hover {
   color: white;
   text-shadow: black 0px 0px 3px;
 }
+.time {
+  text-align: center;
+}
+#addbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#addtrack {
+  transition: box-shadow 1s ease-in-out;
+}
+#addtrack:hover {
+  box-shadow: black 5px 5px 20px;
+}
