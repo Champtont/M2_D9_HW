@@ -11,3 +11,29 @@ const deleteItem = (event) => {
 for (let i = 0; i < deletebtns.length; i++) {
   deletebtns[i].addEventListener("click", deleteItem);
 }
+//Modal stuff
+let modal = document.getElementById("modalBox");
+let addbtn = document.getElementById("addtrack");
+
+const getModal = () => {
+  modal.classList.add("displayModal");
+};
+
+addbtn.addEventListener("click", getModal);
+//modal buttons
+let modalYes = document.getElementById("yes");
+let modalNo = document.getElementById("nope");
+let xBtn = document.getElementById("close");
+
+const exitModal = () => {
+  modal.classList.remove("displayModal");
+};
+
+xBtn.addEventListener("click", exitModal);
+modalNo.addEventListener("click", exitModal);
+
+const addTrack = () => {
+  console.log("pushed");
+};
+
+modalYes.addEventListener("click", addTrack);

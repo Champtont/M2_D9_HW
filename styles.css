@@ -108,3 +108,6 @@ svg:hover {
 .card-body .text-info {
   text-shadow: black 0px 0px 2px;
 }
+.displayModal {
+  display: block;
+}
