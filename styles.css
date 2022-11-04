@@ -71,6 +71,11 @@ svg:hover {
 .card {
   position: relative;
 }
+.card-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 .badge {
   position: absolute;
   top: 0;
@@ -79,6 +84,7 @@ svg:hover {
   background-color: #17a2b8;
   border-radius: 0px 0px 0px 30px;
   text-overflow: wrap;
+  box-shadow: black -5px 0px 10px;
 }
 .badge h5 {
   font-size: 12pt;
