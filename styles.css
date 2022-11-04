@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap");
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Barlow;
+  color: white;
+  letter-spacing: 0.35em;
+  font-size: 40pt;
+}
+h2 {
+  font-family: Barlow;
+  font-size: 30pt;
+  letter-spacing: 0.35em;
+}
+h5 {
+  font-size: 18pt;
+}
+p {
+  font-size: 16pt;
+}
+footer {
+  display: flex;
+}
+
+#icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+svg:hover {
+  color: blue;
+  transform: scale(1.5);
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courts Music Library</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Court's Music</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Options
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#featured">Featured</a>
+              <a class="dropdown-item" href="#music">Music</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#bottom">Footer</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-info btn-dark text-light my-2 my-sm-0"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="text-center mb-3">Court's Music Library</h1>
+      <div class="row">
+        <div id="featured" class="p-1.5 col-12">
+          <div class="card" style="height: 350px">
+            <h5 class="card-header bg-info text-light">Featured</h5>
+            <div
+              class="card-body d-flex flex-column text-center"
+              style="
+                background-image: url(https://e.snmc.io/i/600/w/33256130c96a981b2a8eb6a4d24b3973/10205442/the-dare-girls-Cover-Art.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-y: -36px;
+              "
+            >
+              <h5 class="card-title font-weight-bold display-1 text-info">The Dare</h5>
+              <p class="card-text font-weight-bold text-dark">
+                Now featuring the single "Girls" by The Dare
+              </p>
+              <div class="container mt-3">
+              <a href="#" class="btn btn-info">Listen Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="music" class="col-12 text-center text-light my-3">
+          <h2 class="m-0">Music</h2>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/e/e0/Nine_Inch_Nails_-_With_Teeth.png"
+              class="card-img-top"
+              alt="Nine inch nails with teeth album cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">With Teeth</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nine Inch Nails</li>
+                <li class="list-group-item">Industrial Rock</li>
+                <li class="list-group-item">56 min 6 sec</li>
+              </ul>
+              <a href="#" class="btn btn-info">Listen Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card">
+            <img
+              src="https://m.media-amazon.com/images/I/71-bs+w90pL._SX425_.jpg"
+              class="card-img-top"
+              alt="X ambassadors beautiful liar album cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Beautiful Liar</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">X Ambassadors</li>
+                <li class="list-group-item">Pop Rock</li>
+                <li class="list-group-item">36 min 3 sec</li>
+              </ul>
+              <a href="#" class="btn btn-info">Listen Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/2/20/Major_Lazer_-_Free_the_Universe.png"
+              class="card-img-top"
+              alt="Major Lazer free the universe album cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Free The Universe</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Major Lazer</li>
+                <li class="list-group-item">Electro</li>
+                <li class="list-group-item">1 hr 28 min</li>
+              </ul>
+              <a href="#" class="btn btn-info">Listen Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card">
+            <img
+              src="https://i.scdn.co/image/ab67616d0000b2736cbd9980699e93e0e33c368a"
+              class="card-img-top"
+              alt="John legend Honey album cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Legend</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">John legend</li>
+                <li class="list-group-item">R&B/Soul</li>
+                <li class="list-group-item">1 hr 21 min</li>
+              </ul>
+              <a href="#" class="btn btn-info">Listen Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/9/9b/Tame_Impala_-_Currents.png"
+              class="card-img-top"
+              alt="Tame impala currents album cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Currents</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tame Impala</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <a href="#" class="btn btn-info">Listen Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card">
+            <img
+              src="https://m.media-amazon.com/images/I/A1Xkmci77+L._SX425_.jpg"
+              class="card-img-top"
+              alt="Tech nine special effects album cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special Effects</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tech N9ne</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <a href="#" class="btn btn-info">Listen Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+            <div class="card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/e/eb/The_Internet_-_Ego_Death.png"
+                class="card-img-top"
+                alt="The Internet Ego Death album cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ego Death</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">The Internet</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <a href="#" class="btn btn-info">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="p-1.5 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/41e9KenEvrL._UX358_FMwebp_QL85_.jpg"
+                class="card-img-top"
+                alt="Alex Isley Good & Plenty album cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Good & Plenty</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Alex Isley</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <a href="#" class="btn btn-info">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <h2 class="mb-3 text-light text-center col-12">All Time Favorite</h2>
+          <div class="mb-3 col-12 no-gutters">
+          <div class="card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="rounded img-fluid" style="height: 100%;width:100%;object-fit: cover;"alt="Little People Start shooting Album Cover">
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 px-0">
+                <div class="card-body pl-0 pr-4">
+                  <h5 class="card-title">Little People</h5>
+                  <table class="table table-striped table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Track</th>
+                        <th scope="col">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>
+                            Basique</td>
+                        <td>Otto</td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            Moon</td>
+                        <td>Thornton</td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Unsaid</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Eitheror</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Above The Clouds</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Breathe Again (Ft. Rachael Roberts)</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Intermezzo</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Idiom</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Inutile Et Indispensable</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Last Fare</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>Fisticuffs At Dawn</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>Behind Closed Doors</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">13</th>
+                        <td>Start Shootin'</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">14</th>
+                        <td>Gravitas</td>
+                        <td>the Bird</td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <h2 class="mb-3 text-light text-center col-12">A Tapestry</h2>
+          <img src="https://e.snmc.io/i/600/w/33256130c96a981b2a8eb6a4d24b3973/10205442/the-dare-girls-Cover-Art.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://upload.wikimedia.org/wikipedia/en/e/e0/Nine_Inch_Nails_-_With_Teeth.png" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://m.media-amazon.com/images/I/71-bs+w90pL._SX425_.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://upload.wikimedia.org/wikipedia/en/2/20/Major_Lazer_-_Free_the_Universe.png" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://i.scdn.co/image/ab67616d0000b2736cbd9980699e93e0e33c368a" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Tame_Impala_-_Currents.png" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://m.media-amazon.com/images/I/A1Xkmci77+L._SX425_.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/The_Internet_-_Ego_Death.png" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://m.media-amazon.com/images/I/41e9KenEvrL._UX358_FMwebp_QL85_.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://m.media-amazon.com/images/I/41e9KenEvrL._UX358_FMwebp_QL85_.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://m.media-amazon.com/images/I/41e9KenEvrL._UX358_FMwebp_QL85_.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+          <img src="https://f4.bcbits.com/img/a2160551471_16.jpg" class="img-thumbnail col-3 rounded-0 p-0" alt="...">
+        <footer id="bottom" class="col-12 my-3">
+            <div class="col-4 text-light"><h5>Court's Music</h5></div>
+            <div class="col-4 text-center"><a href="#nav">Back To Top</a></div>
+            <div id="icons" class="col-4 text-light">
+                <div>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-discord"
+                    viewBox="0 0 16 16"
+                    >
+                    <path
+                    d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
+                    />
+                </svg>
+            </div>
+            <div>
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-github"
+              viewBox="0 0 16 16"
+              >
+              <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+        </div>
+        <div>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-linkedin"
+            viewBox="0 0 16 16"
+            >
+            <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+            />
+        </svg>
+    </div>
+</div>
+</div>
+</footer>
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
