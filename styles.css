@@ -68,3 +68,20 @@ svg:hover {
     opacity: 1;
   }
 }
+.card {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em 1em;
+  background-color: #17a2b8;
+  border-radius: 0px 0px 0px 30px;
+  text-overflow: wrap;
+}
+.badge h5 {
+  font-size: 12pt;
+  color: white;
+  text-shadow: black 0px 0px 3px;
+}
