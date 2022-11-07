@@ -112,6 +112,11 @@ svg:hover {
   display: block;
 }
 .hide {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+tr:hover .hide {
   opacity: 1;
 }
 
