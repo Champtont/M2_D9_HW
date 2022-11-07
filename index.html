@@ -287,93 +287,93 @@
                         <th scope="col">Duration</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="table1">
                       <tr>
                         <th scope="row">1</th>
                         <td>
                             Basique</td>
                         <td class="time">
                           3:38</td>
-                      <td><button class="btn btn-danger">Delete</button></td>
+                      <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
                         <td>
                             Moon</td>
                         <td class="time">3:47</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Unsaid</td>
                         <td class="time">3:48</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">4</th>
                         <td>Eitheror</td>
                         <td class="time">5:45</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">5</th>
                         <td>Above The Clouds</td>
                         <td class="time">3:50</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">6</th>
                         <td>Breathe Again (Ft. Rachael Roberts)</td>
                         <td class="time">4:01</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">7</th>
                         <td>Intermezzo</td>
                         <td class="time">0:37</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">8</th>
                         <td>Idiom</td>
                         <td class="time">5:45</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">9</th>
                         <td>Inutile Et Indispensable</td>
                         <td class="time">4:58</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">10</th>
                         <td>Last Fare</td>
                         <td class="time">2:45</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">11</th>
                         <td>Fisticuffs At Dawn</td>
                         <td class="time">1:02</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">12</th>
                         <td>Behind Closed Doors</td>
                         <td class="time">5:10</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">13</th>
                         <td>Start Shootin'</td>
                         <td class="time">3:36</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row">14</th>
                         <td>Gravitas</td>
                         <td class="time">2:31</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
+                        <td><button class="btn btn-danger hide">Delete</button></td>
                       </tr>
                     </tbody>
                   </table>
@@ -385,30 +385,30 @@
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title">Add A track?</h5>
+                          <h5 class="modal-title">Add a Track?</h5>
                           <button id="close" type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">X</span>
                           </button>
                         </div>
                         <div class="modal-body">
-                          <div id="input-group">
-                          <div>
-                            <label for="input">Track Number</label>
-                            <input type="text"/>
+                          <div id="input-group" class="d-flex justify-content-around flex-wrap">
+                          <div class="d-flex flex-column">
+                            <label for="trackNum">Track Number</label>
+                            <input id="trackNum" type="text"/>
                           </div>
-                          <div>
-                            <label for="input">Track title</label>
-                            <input type="text"/>
+                          <div class="d-flex flex-column">
+                            <label for="trackTitle">Track Title</label>
+                            <input id="trackTitle" type="text"/>
                           </div>
-                          <div>
-                            <label for="input">Duration</label>
-                            <input type="text"/>
+                          <div class="d-flex flex-column">
+                            <label for="Duration">Duration</label>
+                            <input id="Duration" type="text"/>
                           </div>
                           </div>
                         </div>
                         <div class="modal-footer">
                           <button id="nope" type="button" class="btn btn-secondary" data-dismiss="modal">Nevermind</button>
-                          <button id="yes" type="button" class="btn btn-primary">Add a track</button>
+                          <button id="yes" type="button" class="btn btn-info">Add a track</button>
                         </div>
                       </div>
                     </div>

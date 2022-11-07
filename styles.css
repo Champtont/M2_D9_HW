@@ -111,3 +111,27 @@ svg:hover {
 .displayModal {
   display: block;
 }
+.hide {
+  opacity: 1;
+}
+
+.modal-content {
+  background-color: black;
+  color: white;
+}
+#close {
+  display: flex;
+  align-items: center;
+}
+#close span {
+  color: red;
+  font-size: 16pt;
+}
+.modal-header {
+  align-items: center;
+}
+#input-group input {
+  border-radius: 5px;
+  padding-left: 0.5em;
+  margin-bottom: 0.5em;
+}
