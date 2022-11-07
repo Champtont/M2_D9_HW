@@ -11,14 +11,7 @@ const deleteItem = (event) => {
 for (let i = 0; i < deletebtns.length; i++) {
   deletebtns[i].addEventListener("click", deleteItem);
 }
-//delete btns display one at a time ? maybe later
-const tableRow = document.querySelectorAll("tr");
 
-const displayBtn = () => {};
-
-for (let i = 0; i < tableRow.length; i++) {
-  tableRow[i].addEventListener("mouseover", displayBtn);
-}
 //Modal stuff
 let modal = document.getElementById("modalBox");
 let addbtn = document.getElementById("addtrack");
